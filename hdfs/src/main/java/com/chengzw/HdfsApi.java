@@ -22,7 +22,7 @@ public class HdfsApi {
         FileSystem fileSystem = hdfsApi.getFileSystem2();
 
         //遍历文件
-        //hdfsApi.listFiles(fileSystem);
+        hdfsApi.listFiles(fileSystem);
 
         //创建文件夹
         //hdfsApi.mkdirs(fileSystem);
@@ -37,7 +37,7 @@ public class HdfsApi {
         //hdfsApi.mergeUpload(fileSystem);
 
         //合并下载
-        hdfsApi.mergeDownload(fileSystem);
+        //hdfsApi.mergeDownload(fileSystem);
     }
 
     /**

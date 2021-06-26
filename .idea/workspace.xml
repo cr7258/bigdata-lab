@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mapreduce:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af952fa4-db9a-4999-bb2c-4c0e067063f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-lab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfs/hdfs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfs/src/main/java/com/chengzw/HdfsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/chengzw/HdfsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfs/target/classes/com/chengzw/HdfsApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/hdfs/target/classes/com/chengzw/HdfsApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///usr/local/apache-maven-3.6.3/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/io/RawComparator.class" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/local/apache-maven-3.6.3/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/io/WritableComparator.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="kubernetes-admin-cd72bba4e1941425987b9f33d5c789601" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1sPw7AFTQLtONfdXokvKTop9aOe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mapreduce/src/main/java/com/chengzw/mr" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mapreduce/src/main/java/com/chengzw/mr" />
+      <recent name="$PROJECT_DIR$/mapreduce/src/main/java/com/chengzw/flow/测试数据" />
+      <recent name="$PROJECT_DIR$/mapreduce/src/main/java/com/chengzw/combiner" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chengzw.flow.partitioner" />
+      <recent name="com.chengzw.flow.sort" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.mr">
+    <configuration name="JobMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzw.sort.JobMain" />
+      <module name="mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chengzw.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Order" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzw.order.JobMain" />
+      <module name="mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chengzw.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mr" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.chengzw.mr.JobMain" />
+      <module name="mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="/tmp/input /tmp/output/mr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chengzw.mr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.mr" />
+      <item itemvalue="Application.JobMain" />
+      <item itemvalue="Application.Order" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Order" />
+        <item itemvalue="Application.JobMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af952fa4-db9a-4999-bb2c-4c0e067063f5" name="Default Changelist" comment="" />
+      <created>1620787364793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620787364793</updated>
+      <workItem from="1620787366141" duration="1159000" />
+      <workItem from="1620789319758" duration="200000" />
+      <workItem from="1620789565138" duration="525000" />
+      <workItem from="1620790336068" duration="12104000" />
+      <workItem from="1620811630121" duration="275000" />
+      <workItem from="1621257363881" duration="465000" />
+      <workItem from="1621260214431" duration="1474000" />
+      <workItem from="1621491634080" duration="57000" />
+      <workItem from="1621513448188" duration="5651000" />
+      <workItem from="1621691955404" duration="6590000" />
+      <workItem from="1621762009687" duration="6805000" />
+      <workItem from="1621863955231" duration="335000" />
+      <workItem from="1623421876146" duration="888000" />
+      <workItem from="1623422841848" duration="98000" />
+      <workItem from="1623422959272" duration="151000" />
+      <workItem from="1623423353351" duration="52000" />
+      <workItem from="1623423422457" duration="144000" />
+      <workItem from="1623423585898" duration="54000" />
+      <workItem from="1623424431460" duration="44000" />
+      <workItem from="1623424489846" duration="78000" />
+      <workItem from="1623424609912" duration="57000" />
+      <workItem from="1623425036183" duration="340000" />
+      <workItem from="1623425381438" duration="4000" />
+      <workItem from="1623425396103" duration="19000" />
+      <workItem from="1623425431038" duration="833000" />
+      <workItem from="1623426273231" duration="46000" />
+      <workItem from="1623426333340" duration="236000" />
+      <workItem from="1623426672457" duration="9000" />
+      <workItem from="1623427403336" duration="93000" />
+      <workItem from="1623427517525" duration="2506000" />
+      <workItem from="1623721796674" duration="34000" />
+      <workItem from="1623859042128" duration="92000" />
+      <workItem from="1623931773919" duration="144000" />
+      <workItem from="1624069129815" duration="11001000" />
+      <workItem from="1624280810503" duration="1355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2613" y="375" key="#Notifications" timestamp="1624076681753">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2613" y="375" key="#Notifications/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624076681753" />
+    <state x="2122" y="162" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624076698544">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2122" y="162" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624076698544" />
+    <state x="2507" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1624073038505">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2507" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624073038505" />
+    <state width="1878" height="187" key="GridCell.Tab.0.bottom" timestamp="1624292863346">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430064749" />
+    <state width="1878" height="189" key="GridCell.Tab.0.bottom/0.23.1920.1012/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430018229" />
+    <state width="1878" height="155" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428265464" />
+    <state width="1878" height="187" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624292863346" />
+    <state width="1878" height="187" key="GridCell.Tab.0.center" timestamp="1624292863345">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="189" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430064748" />
+    <state width="1878" height="189" key="GridCell.Tab.0.center/0.23.1920.1012/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430018228" />
+    <state width="1878" height="155" key="GridCell.Tab.0.center/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428265462" />
+    <state width="1878" height="187" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624292863345" />
+    <state width="1878" height="187" key="GridCell.Tab.0.left" timestamp="1624292863345">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="189" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430064747" />
+    <state width="1878" height="189" key="GridCell.Tab.0.left/0.23.1920.1012/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430018227" />
+    <state width="1878" height="155" key="GridCell.Tab.0.left/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428265461" />
+    <state width="1878" height="187" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624292863345" />
+    <state width="1878" height="187" key="GridCell.Tab.0.right" timestamp="1624292863346">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="189" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430064748" />
+    <state width="1878" height="189" key="GridCell.Tab.0.right/0.23.1920.1012/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430018228" />
+    <state width="1878" height="155" key="GridCell.Tab.0.right/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428265463" />
+    <state width="1878" height="187" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624292863346" />
+    <state x="2468" y="282" key="IDE.errors.dialog" timestamp="1623427490293">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2468" y="282" key="IDE.errors.dialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623427490293" />
+    <state x="2138" y="169" width="1263" height="722" key="SettingsEditor" timestamp="1624095377956">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2138" y="169" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428149606" />
+    <state x="2138" y="169" width="1263" height="722" key="SettingsEditor/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428235638" />
+    <state x="2138" y="169" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624095377956" />
+    <state x="2423" y="201" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1623425978807">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2423" y="201" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623425978807" />
+    <state x="2587" y="297" width="586" height="486" key="find.popup" timestamp="1623426298823">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2587" y="297" width="586" height="486" key="find.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623426298823" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.IOException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
