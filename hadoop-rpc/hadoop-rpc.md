@@ -2,8 +2,8 @@
 
 ## Hadoop RPC 调用流程和原理
 
-* 1. Client 和 Server 端的通过 Socket 连接进行通讯。
-* 2. 客户端通过 RPC.getProxy 方法获取代理对象，执行方法的时候，代理对象拦截调用的方法，拿到方法名称，参数序列
+* 1.Client 和 Server 端的通过 Socket 连接进行通讯。
+* 2.客户端通过 RPC.getProxy 方法获取代理对象，执行方法的时候，代理对象拦截调用的方法，拿到方法名称，参数序列
 化之后通过 Socket 发给 Server，Server 反序列化得到相应的参数调用具体的实现对象。
 
 ![](https://chengzw258.oss-cn-beijing.aliyuncs.com/Article/20210725123719.png)
