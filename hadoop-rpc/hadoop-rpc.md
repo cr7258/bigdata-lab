@@ -6,6 +6,7 @@
 2. 客户端通过 RPC.getProxy 方法获取代理对象，执行方法的时候，代理对象拦截调用的方法，拿到方法名称，参数序列
 化之后通过 Socket 发给 Server，Server 反序列化得到相应的参数调用具体的实现对象。
 
+![](https://chengzw258.oss-cn-beijing.aliyuncs.com/Article/20210725123719.png)
 
 ## 实现步骤
 
@@ -16,7 +17,8 @@
 
 ## 验证
 
-启动 RPCClient 添加 3 个学生信息，在 RPCServer 端输出如下：```sh
+启动 RPCClient 添加 3 个学生信息，在 RPCServer 端输出如下：
+```sh
 添加学生信息：学生 ID：1 学生姓名：chengzw
 添加学生信息：学生 ID：2 学生姓名：tom
 添加学生信息：学生 ID：3 学生姓名：jack
