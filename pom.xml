@@ -11,6 +11,8 @@
     <modules>
         <module>hdfs</module>
         <module>mapreduce</module>
+        <module>flink</module>
+        <module>hadoop-rpc</module>
     </modules>
 
 

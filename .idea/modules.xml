@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bigdata-lab.iml" filepath="$PROJECT_DIR$/bigdata-lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink/flink.iml" filepath="$PROJECT_DIR$/flink/flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop-rpc/hadoop-rpc.iml" filepath="$PROJECT_DIR$/hadoop-rpc/hadoop-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/hdfs/hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapreduce/mapreduce.iml" filepath="$PROJECT_DIR$/mapreduce/mapreduce.iml" />
     </modules>
