@@ -10,7 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af952fa4-db9a-4999-bb2c-4c0e067063f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hadoop-rpc/hadoop-rpc.md" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-rpc/hadoop-rpc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapreduce/target/mapreduce-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/target/mapreduce-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +70,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -84,13 +88,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RPCClient">
-    <configuration name="JobMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzw.sort.JobMain" />
-      <module name="mapreduce" />
+  <component name="RunManager" selected="Application.HbaseOperate">
+    <configuration name="HbaseOperate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzw.HbaseOperate" />
+      <module name="hbase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chengzw.sort.*" />
+          <option name="PATTERN" value="com.chengzw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Order" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzw.order.JobMain" />
-      <module name="mapreduce" />
+    <configuration name="MyJavaWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzw.wordcount.MyJavaWordCount" />
+      <module name="spark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chengzw.order.*" />
+          <option name="PATTERN" value="com.chengzw.wordcount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,30 +155,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HbaseOperateTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hbase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chengzw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chengzw" />
+      <option name="MAIN_CLASS_NAME" value="com.chengzw.HbaseOperateTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.mr" />
-      <item itemvalue="Application.JobMain" />
-      <item itemvalue="Application.Order" />
       <item itemvalue="Application.RPCServer" />
       <item itemvalue="Application.RPCClient" />
+      <item itemvalue="Application.MyJavaWordCount" />
+      <item itemvalue="Application.HbaseOperate" />
+      <item itemvalue="JUnit.HbaseOperateTest.contextLoads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HbaseOperate" />
+        <item itemvalue="JUnit.HbaseOperateTest.contextLoads" />
+        <item itemvalue="Application.MyJavaWordCount" />
         <item itemvalue="Application.RPCClient" />
         <item itemvalue="Application.RPCServer" />
-        <item itemvalue="Application.Order" />
-        <item itemvalue="Application.JobMain" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +250,10 @@
       <workItem from="1624280810503" duration="1355000" />
       <workItem from="1624716611214" duration="556000" />
       <workItem from="1627020441520" duration="1564000" />
-      <workItem from="1627182211930" duration="3517000" />
+      <workItem from="1627182211930" duration="7109000" />
+      <workItem from="1627305441898" duration="306000" />
+      <workItem from="1627563047427" duration="942000" />
+      <workItem from="1627564513500" duration="3966000" />
     </task>
     <servers />
   </component>
@@ -250,48 +277,52 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2507" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624073038505" />
-    <state x="2480" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1627182222687">
+    <state x="2480" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1627563101952">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2480" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627182222687" />
-    <state width="1878" height="360" key="GridCell.Tab.0.bottom" timestamp="1627187787247">
+    <state x="2480" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627563101952" />
+    <state width="1878" height="187" key="GridCell.Tab.0.bottom" timestamp="1627567965252">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430064749" />
     <state width="1878" height="189" key="GridCell.Tab.0.bottom/0.23.1920.1012/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430018229" />
     <state width="1878" height="155" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428265464" />
-    <state width="1878" height="360" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627187787247" />
-    <state width="1878" height="360" key="GridCell.Tab.0.center" timestamp="1627187787245">
+    <state width="1878" height="187" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627567965252" />
+    <state width="1878" height="187" key="GridCell.Tab.0.center" timestamp="1627567965251">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="189" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430064748" />
     <state width="1878" height="189" key="GridCell.Tab.0.center/0.23.1920.1012/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430018228" />
     <state width="1878" height="155" key="GridCell.Tab.0.center/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428265462" />
-    <state width="1878" height="360" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627187787245" />
-    <state width="1878" height="360" key="GridCell.Tab.0.left" timestamp="1627187787244">
+    <state width="1878" height="187" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627567965251" />
+    <state width="1878" height="187" key="GridCell.Tab.0.left" timestamp="1627567965250">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="189" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430064747" />
     <state width="1878" height="189" key="GridCell.Tab.0.left/0.23.1920.1012/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430018227" />
     <state width="1878" height="155" key="GridCell.Tab.0.left/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428265461" />
-    <state width="1878" height="360" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627187787244" />
-    <state width="1878" height="360" key="GridCell.Tab.0.right" timestamp="1627187787246">
+    <state width="1878" height="187" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627567965250" />
+    <state width="1878" height="187" key="GridCell.Tab.0.right" timestamp="1627567965251">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="189" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430064748" />
     <state width="1878" height="189" key="GridCell.Tab.0.right/0.23.1920.1012/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623430018228" />
     <state width="1878" height="155" key="GridCell.Tab.0.right/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428265463" />
-    <state width="1878" height="360" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627187787246" />
+    <state width="1878" height="187" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627567965251" />
     <state x="2468" y="282" key="IDE.errors.dialog" timestamp="1623427490293">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2468" y="282" key="IDE.errors.dialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623427490293" />
-    <state x="2138" y="169" width="1263" height="722" key="SettingsEditor" timestamp="1624716820804">
+    <state x="2418" y="202" key="Maven.ArtifactSearchDialog" timestamp="1627564934035">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2418" y="202" key="Maven.ArtifactSearchDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627564934035" />
+    <state x="2138" y="169" width="1263" height="722" key="SettingsEditor" timestamp="1627564467858">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2138" y="169" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428149606" />
     <state x="2138" y="169" width="1263" height="722" key="SettingsEditor/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623428235638" />
-    <state x="2138" y="169" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624716820804" />
+    <state x="2138" y="169" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627564467858" />
     <state x="2423" y="201" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1623425978807">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -301,10 +332,10 @@
     </state>
     <state x="2587" y="297" width="586" height="486" key="find.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623426298823" />
     <state x="2587" y="297" width="586" height="486" key="find.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627184584774" />
-    <state x="2320" y="122" key="new project wizard" timestamp="1627182248131">
+    <state x="2320" y="122" key="new project wizard" timestamp="1627563120508">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2320" y="122" key="new project wizard/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627182248131" />
+    <state x="2320" y="122" key="new project wizard/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627563120508" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

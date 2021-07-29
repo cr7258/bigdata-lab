@@ -10,14 +10,18 @@
         <module name="hdfs" />
         <module name="hadoop-rpc" />
         <module name="mapreduce" />
+        <module name="spark" />
+        <module name="hbase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="bigdata-lab" target="1.5" />
       <module name="flink" target="1.8" />
       <module name="hadoop-rpc" target="7" />
+      <module name="hbase" target="1.5" />
       <module name="hdfs" target="1.5" />
       <module name="mapreduce" target="7" />
+      <module name="spark" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>
