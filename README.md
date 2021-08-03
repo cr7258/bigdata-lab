@@ -2,4 +2,5 @@
 ## HDFS
 ## MapReduce
 ## Hadoop RPC
+## HBase
 ## Flink

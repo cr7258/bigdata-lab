@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flink" />
-        <module name="hdfs" />
-        <module name="hadoop-rpc" />
+        <module name="minibase" />
         <module name="mapreduce" />
         <module name="spark" />
+        <module name="hdfs" />
+        <module name="hadoop-rpc" />
         <module name="hbase" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="hbase" target="1.5" />
       <module name="hdfs" target="1.5" />
       <module name="mapreduce" target="7" />
+      <module name="minibase" target="1.8" />
       <module name="spark" target="6" />
     </bytecodeTargetLevel>
   </component>
