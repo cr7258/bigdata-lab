@@ -10,14 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af952fa4-db9a-4999-bb2c-4c0e067063f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-lab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hbase/hbase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hbase/hbase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hbase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hbase/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hbase/src/main/java/com/chengzw/HbaseOperate.java" beforeDir="false" afterPath="$PROJECT_DIR$/hbase/src/main/java/com/chengzw/HbaseOperate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,17 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HbaseOperateTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hbase" />
       <extension name="coverage">
@@ -258,6 +240,7 @@
       <workItem from="1627650352258" duration="8149000" />
       <workItem from="1627703120540" duration="5199000" />
       <workItem from="1628002597197" duration="520000" />
+      <workItem from="1628003959514" duration="135000" />
     </task>
     <servers />
   </component>
