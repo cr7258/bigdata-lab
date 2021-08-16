@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af952fa4-db9a-4999-bb2c-4c0e067063f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="af952fa4-db9a-4999-bb2c-4c0e067063f5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,6 +239,7 @@
       <workItem from="1627703120540" duration="5199000" />
       <workItem from="1628002597197" duration="520000" />
       <workItem from="1628003959514" duration="135000" />
+      <workItem from="1629124487321" duration="397000" />
     </task>
     <servers />
   </component>
@@ -264,11 +263,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2507" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1624073038505" />
-    <state x="560" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1627703173910">
-      <screen x="0" y="23" width="1920" height="1014" />
+    <state x="2480" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1629124574926">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="560" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1014/1920.23.1920.1057@0.23.1920.1014" timestamp="1627703173910" />
-    <state x="2480" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1627563101952" />
+    <state x="2480" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1629124574926" />
     <state width="1878" height="402" key="GridCell.Tab.0.bottom" timestamp="1627722283875">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
