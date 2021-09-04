@@ -1,7 +1,7 @@
 package com.chengzw
 
 
-import org.apache.commons.cli.{DefaultParser, Options}
+import org.apache.commons.cli.{Options, PosixParser}
 import org.apache.hadoop.fs.{FileSystem, Path}
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -17,11 +17,11 @@ object InvertIndex extends App {
   val sc = new SparkContext(sparkConf)
   sc.setLogLevel("WARN")
 
-  // val input = "/Users/chengzhiwei/Code/github/bigdata-lab/spark-scala/src/main/resources/invertIndex"
+  //val input = "/Users/chengzhiwei/Code/github/bigdata-lab/spark-scala/src/main/resources/invertIndex"
   //解析输入参数
   val options = new Options()
   options.addOption("f", "input file", true, "input file")
-  val parser = new DefaultParser()
+  val parser = new PosixParser()
   val cmd = parser.parse(options, args)
   val input = cmd.getOptionValue("f")
   println("输入目录名: " + input)

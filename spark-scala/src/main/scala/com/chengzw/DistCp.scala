@@ -1,7 +1,6 @@
 package com.chengzw
 
-import com.chengzw.InvertIndex.options
-import org.apache.commons.cli.{DefaultParser, Options}
+import org.apache.commons.cli.{Options, PosixParser}
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.{FileSystem, FileUtil, Path}
 import org.apache.spark.{SparkConf, SparkContext}
@@ -28,7 +27,8 @@ object DistCp {
     options.addOption("m", " max concurrence", true, "max concurrence")
     options.addOption("input", "input file", true, "input file")
     options.addOption("output", "output file", true, "output file")
-    val parser = new DefaultParser()
+    //PosixParser() 在新版本 1.4 中已经弃用，但是由于 DefaultParser() 在 spark-submit 中提交会有 java.lang.IllegalAccessError 的报错，因此这里使用已弃用的 PosixParser()
+    val parser = new PosixParser()
     val cmd = parser.parse(options, args)
 
     val IGNORE_FAILURE = cmd.hasOption("i")
