@@ -16,7 +16,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * @description WordCount示例
+ * @description WordCount 示例
  * @author chengzw
  * @since 2021/7/25 8:39 下午
  */

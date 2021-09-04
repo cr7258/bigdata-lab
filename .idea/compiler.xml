@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -13,6 +14,7 @@
         <module name="hdfs" />
         <module name="hadoop-rpc" />
         <module name="hbase" />
+        <module name="spark-scala" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -24,6 +26,7 @@
       <module name="mapreduce" target="7" />
       <module name="minibase" target="1.8" />
       <module name="spark" target="6" />
+      <module name="spark-scala" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

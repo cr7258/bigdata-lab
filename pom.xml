@@ -15,6 +15,7 @@
         <module>hadoop-rpc</module>
         <module>spark</module>
         <module>hbase</module>
+        <module>spark-scala</module>
     </modules>
 
 
