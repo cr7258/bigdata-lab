@@ -15,11 +15,13 @@
         <module name="hadoop-rpc" />
         <module name="hbase" />
         <module name="spark-scala" />
+        <module name="commons_cli" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="bigdata-lab" target="1.5" />
-      <module name="flink" target="1.8" />
+      <module name="commons_cli" target="1.5" />
+      <module name="flink" target="1.5" />
       <module name="hadoop-rpc" target="7" />
       <module name="hbase" target="1.5" />
       <module name="hdfs" target="1.5" />
@@ -27,6 +29,7 @@
       <module name="minibase" target="1.8" />
       <module name="spark" target="6" />
       <module name="spark-scala" target="1.5" />
+      <module name="test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

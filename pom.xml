@@ -16,6 +16,7 @@
         <module>spark</module>
         <module>hbase</module>
         <module>spark-scala</module>
+        <module>commons_cli</module>
     </modules>
 
 

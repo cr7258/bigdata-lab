@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bigdata-lab.iml" filepath="$PROJECT_DIR$/bigdata-lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons_cli/commons_cli.iml" filepath="$PROJECT_DIR$/commons_cli/commons_cli.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink/flink.iml" filepath="$PROJECT_DIR$/flink/flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop-rpc/hadoop-rpc.iml" filepath="$PROJECT_DIR$/hadoop-rpc/hadoop-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/hbase/hbase.iml" filepath="$PROJECT_DIR$/hbase/hbase.iml" />
