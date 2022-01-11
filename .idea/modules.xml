@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/hbase/hbase.iml" filepath="$PROJECT_DIR$/hbase/hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/hdfs/hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapreduce/mapreduce.iml" filepath="$PROJECT_DIR$/mapreduce/mapreduce.iml" />
-      <module fileurl="file://$PROJECT_DIR$/minibase/minibase.iml" filepath="$PROJECT_DIR$/minibase/minibase.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark-scala/spark-scala.iml" filepath="$PROJECT_DIR$/spark-scala/spark-scala.iml" />
     </modules>

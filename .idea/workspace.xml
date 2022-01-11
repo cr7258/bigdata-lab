@@ -10,62 +10,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af952fa4-db9a-4999-bb2c-4c0e067063f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flink/src/main/java/com/chengzw/wc/BatchWordCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_11_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_5_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_11_2_5_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_11_2_5_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_11_2_5_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_11_0_3_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_file_sink_common_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_7_7_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_12_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_49_Final_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_zookeeper_3_3_4_14_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_walkthrough_common_2_11_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink/flink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/flink.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/chengzw/spendreport/FraudDetectionJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/chengzw/spendreport/FraudDetector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/java/com/chengzw/wc/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/main/java/org/apache/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/main/java/org/apache/minibase/BloomFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/main/java/org/apache/minibase/Bytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/main/java/org/apache/minibase/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/main/java/org/apache/minibase/DiskFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/main/java/org/apache/minibase/DiskStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/main/java/org/apache/minibase/KeyValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/main/java/org/apache/minibase/MStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/main/java/org/apache/minibase/MemStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/main/java/org/apache/minibase/MiniBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/test/java/org/apache/minibase/TestBloomFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/test/java/org/apache/minibase/TestBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/test/java/org/apache/minibase/TestDiskFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/test/java/org/apache/minibase/TestKeyValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/test/java/org/apache/minibase/TestMemstoreFlush.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/test/java/org/apache/minibase/TestMiniBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minibase/src/test/java/org/apache/minibase/TestMultiIter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,20 +62,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar:///usr/local/apache-maven-3.6.3/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/io/WritableComparator.class" root0="SKIP_INSPECTION" />
-    <setting file="jar:///usr/local/apache-maven-3.6.3/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar!/org/apache/hadoop/io/RawComparator.class" root0="SKIP_INSPECTION" />
-  </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="kubernetes-admin@dev-acp-cluster" />
     <option name="namespace" value="default" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -122,10 +84,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/flink/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -145,14 +107,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvertIndex">
-    <configuration name="CLITester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzw.CLITester" />
-      <module name="commons_cli" />
-      <option name="PROGRAM_PARAMETERS" value="-a 1 2 3 4 5" />
+  <component name="RunManager" selected="Application.StreamSocket">
+    <configuration name="BatchWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzw.wc.BatchWordCount" />
+      <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chengzw.*" />
+          <option name="PATTERN" value="com.chengzw.wc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,10 +121,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistCp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzw.DistCp" />
-      <module name="spark-scala" />
-      <option name="PROGRAM_PARAMETERS" value="-i -m 4 \ -input $PROJECT_DIR$/spark-scala/src/main/resources/distcp/input \ -output $PROJECT_DIR$/spark-scala/src/main/resources/distcp/output" />
+    <configuration name="CLITester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzw.CLITester" />
+      <module name="commons_cli" />
+      <option name="PROGRAM_PARAMETERS" value="-a 1 2 3 4 5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.chengzw.*" />
@@ -188,12 +149,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzw.Test" />
-      <module name="commons_cli" />
+    <configuration name="StreamSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzw.wc.StreamSocket" />
+      <module name="flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chengzw.*" />
+          <option name="PATTERN" value="com.chengzw.wc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzw.wc.StreamWordCount" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chengzw.wc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,31 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spark-scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chengzw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chengzw" />
-      <option name="MAIN_CLASS_NAME" value="com.chengzw.AppTest" />
-      <option name="METHOD_NAME" value="testOK" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -247,18 +203,18 @@
     <list>
       <item itemvalue="Application.mr" />
       <item itemvalue="Application.InvertIndex" />
-      <item itemvalue="Application.DistCp" />
       <item itemvalue="Application.CLITester" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.AppTest.testOK" />
+      <item itemvalue="Application.BatchWordCount" />
+      <item itemvalue="Application.StreamWordCount" />
+      <item itemvalue="Application.StreamSocket" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamSocket" />
+        <item itemvalue="Application.BatchWordCount" />
+        <item itemvalue="Application.StreamWordCount" />
         <item itemvalue="Application.InvertIndex" />
         <item itemvalue="Application.CLITester" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.DistCp" />
-        <item itemvalue="JUnit.AppTest.testOK" />
       </list>
     </recent_temporary>
   </component>
@@ -327,18 +283,26 @@
       <workItem from="1633587199192" duration="256000" />
       <workItem from="1637935546128" duration="389000" />
       <workItem from="1641818365527" duration="264000" />
+      <workItem from="1641868841525" duration="3971000" />
+      <workItem from="1641872898246" duration="523000" />
+      <workItem from="1641873456140" duration="2661000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2480" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1641818379479">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2480" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637935594504" />
-    <state x="2480" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1641818379479" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,5 +317,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
